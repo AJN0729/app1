@@ -2,6 +2,8 @@ package com.example.myfavoritebooksiguess
 
 var bookList = mutableListOf<Books>()
 
+var BOOK_TO_DETAILS = "bookDetails"
+
 class Books (
     var cover: Int,
     var author: String,
